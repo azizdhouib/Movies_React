@@ -1,5 +1,5 @@
 import React from 'react';
-
+//test pr
 const MovieCard = ({ movie: { imdbID, Year, Poster, Title, Type } }) => {
   return (
     <div className="movie" key={imdbID}>
